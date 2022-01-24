@@ -48,7 +48,7 @@
 | CT03 | -1               | Valor Inválido      | CE03                |
 | CT04 | 13               | Valor Inválido      | CE04                |
 | CT08 | 0                | Valor inválido      | CE05                |
-| CT09 | -1               | Valor inválido      | CE                  |
+| CT09 | -1               | Valor inválido      | CE06                |
 | CT10 | 3, 3, 1, 10      | Reprovado por média | CE07                |
 | CT11 | 3, 3, 5, 10      | Reprovado por falta | CE07                |
 | CT10 | 3, 4, 1, 120     | Recuperação         | CE07                |
