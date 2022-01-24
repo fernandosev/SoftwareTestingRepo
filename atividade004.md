@@ -14,7 +14,20 @@
 
 6. Pede-se a definição do conjunto de casos de testes necessários para o teste do mesmo cenário descrito na tarefa 003. Estes casos de teste deverão ser criadas a partir das diretrizes definidas pelo critério funcional "Análise do Valor Limte".
 
-7. O Conjunto de casos de testes derivado deve seguir o seguinte padrão:---
+7. O Conjunto de casos de testes derivado deve seguir o seguinte padrão:
+
+| id   | descrição                                                                                            | V/I |
+| ---- | ---------------------------------------------------------------------------------------------------- | --- |
+| CE01 | nota1 < 0                                                                                            | I   |
+| CE02 | nota1 > 10                                                                                           | I   |
+| CE03 | nota2 < 0                                                                                            | I   |
+| CE04 | nota2 > 10                                                                                           | I   |
+| CE05 | cargaHoraria < 1                                                                                     | I   |
+| CE06 | faltas < 0                                                                                           | I   |
+| CE07 | nota1 >= 0 e nota1 <= 10, nota2 >= 0 e nota2 <= 10, faltas >= 0 e <= cargaHoraria, cargaHoraria >= 1 | V   |
+| CE08 | faltas > cargaHoraria                                                                                | I   |
+
+---
 
 | CT   | Valor de Entrada | Resultado Esperado  | Classe Equivalência |
 | ---- | ---------------- | ------------------- | ------------------- |
